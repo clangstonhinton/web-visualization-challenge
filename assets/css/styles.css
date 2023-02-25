@@ -1,0 +1,133 @@
+/* Navbar */
+.navbar{
+    max-height: 57px; 
+  }
+  .navigation .navbar-brand{
+    color: #0c3ef4; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: white;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: white; 
+    font-size: 15px; 
+  }
+
+  .active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E7E7E7; 
+  }
+
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #0c3ef4;
+  }
+
+  .nav-link:hover{
+    background-color: #0c3ef4;
+    
+  }
+
+  /* Body Background Image*/
+  .bg-image {
+    background-image: url("weather_collage.png");
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  /* Title Class*/
+  .title {
+    color: #0c3ef4;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 25px;
+  }
+
+
+  /* Paragraph */
+  p {
+    color: black;
+    font-size: 16;
+  }
+
+/* Box Class */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+  
+  }
+
+  /* Images */
+img{
+    width:100%;
+    height:100%;
+    
+  }
+
+  .active, .panel:hover{
+    border-color:#0c3ef4;
+    border-style: solid;
+  }
+
+  .vizualization{
+    width:25%;
+    height:25%;
+  }
+/* Footer */
+footer {
+  background-color: #666666;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #0c3ef4;
+  color: white;
+  min-height: 50px;
+  font-family: Arial, Geneva, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1px;
+
+}
+
+/* Table*/
+.table {
+  font-size: 15px;
+  border-top-color: white;
+}
+
+  /* Media Queries */
+@media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: #0c3ef4;
+    }
+    .navbar{
+      max-height: none; 
+      padding: inherit;
+    }
+    .navbar div{
+      margin: inherit; 
+      background-color: white;  
+    }
+    .navbar-brand{
+      padding: 10px; 
+    }
+
+    button{
+        margin-right: 30px; 
+      }
+    button:focus {
+
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;               
+      }
+    }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Web Visualization Dashboard</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" media="screen">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body class="bg-image">
+    
+    <!-- Start of navbar -->
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Web Visualization Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="'navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li> 
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+      
+    <!-- Start of container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="box" style="padding-bottom: 5px;">
+            <h3 class="title">Summary: Latitude vs. Climate Element</h3>
+            <hr>
+            <img src="assets/images/lat_vs_temp.png" class="vizualization rounded float-left" alt="Max Temperature Plot">
+            <p>
+              The purpose text.
+            </p>
+            <p>
+              More text.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12">
+          <div class="box">
+            <h5 class="title">Visualizations</h5>
+            <hr>
+            <div class="container">
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-6">
+                  <a href="visualizations/temp.html">
+                    <img class="panel" src="assets/images/lat_vs_temp.png" alt="Max Temperature Plot">
+                  </a>
+                </div>
+              <div class="col-6">
+                <a href="visualizations/humidity.html">
+                  <img class="panel" src="assets/images/lat_vs_humidity.png" alt="Humidity Plot">
+                </a>
+              </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px;">
+              <div class="col-6">
+                <a href="visualizations/cloudiness.html">
+                  <img class="panel" src="assets/images/lat_vs_cloudiness.png" alt="Cloudiness Plot">
+                </a>
+            </div>
+            <div class="col-6">
+              <a href="visualizations/wind.html">
+                <img class="panel" src="assets/images/lat_vs_wind.png" alt="Wind Speed Plot">
+              </a>
+            </div>          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of container -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer">&copy; Copyright 2023</div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
