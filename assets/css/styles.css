@@ -1,3 +1,25 @@
+/* Body Background Image*/
+body {
+  /*
+  background-image: url("https://s.yimg.com/ny/api/res/1.2/nqcSMwKIBa134G_enHQxKA--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://media.zenfs.com/en/hoodline_545/d3b0442273eb4a0beee562107ec74e01");
+ 
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg");
+  */
+
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680__340.jpg");
+
+  /* background-image: url("assets/images/weather_collage.png"); */
+  height: 750px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover; 
+  /*
+  background-color: #ededed;
+  */ 
+}
+
+
+
 /* Navbar */
 .navbar{
     max-height: 57px; 
@@ -7,17 +29,20 @@
     margin-left: 30px; 
     padding: inherit; 
     font-weight: bold; 
-    background-color: white;
+    background-color: #ededed;
     font-family: Arial, Geneva, Helvetica, sans-serif;
 }
 
 .navbar{
-    background-color: white; 
+    background-color: #ededed;
     font-size: 15px; 
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #0c3ef4;
   }
 
   .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:#E7E7E7; 
+    background-color:#ededed;
   }
 
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
@@ -25,19 +50,9 @@
   }
 
   .nav-link:hover{
-    background-color: #0c3ef4;
+    background-color: rgb(169, 169, 169);
     
   }
-
-  /* Body Background Image*/
-  .bg-image {
-    background-image: url("assets/images/weather_collage.png");
-    height: 1100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
 
   /* Title Class*/
   .title {
@@ -47,11 +62,24 @@
     padding-top: 25px;
   }
 
+  h5 {
+    color: #0c3ef4;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    margin-bottom: 15px;
+  }
+
+  h6 {
+    color: black;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0;
+  }
 
   /* Paragraph */
   p {
     color: black;
     font-size: 16;
+    margin-top: 0;
   }
 
 /* Box Class */
@@ -61,7 +89,6 @@
     padding: 10px 20px 15px; 
     color:black;
     background-color: white; 
-  
   }
 
   /* Images */
@@ -71,15 +98,21 @@ img{
     
   }
 
-  .active, .panel:hover{
-    border-color:#0c3ef4;
-    border-style: solid;
-  }
+.active, .panel:hover{
+  border-color:#0c3ef4;
+  border-style: solid;
+}
 
-  .vizualization{
-    width:25%;
-    height:25%;
-  }
+.vizualization{
+  width:50%;
+  height:50%;
+}
+
+.table-header {
+  color:white;
+  background-color: #0c3ef4; 
+}
+
 /* Footer */
 footer {
   background-color: #666666;
@@ -95,7 +128,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 1px;
+  padding-top: 15px;
 
 }
 

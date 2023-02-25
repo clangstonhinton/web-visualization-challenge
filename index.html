@@ -9,48 +9,48 @@
     <title>Web Visualization Dashboard</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <!-- CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" media="screen">
-
   </head>
 
-  <body class="bg-image">
-    
-    <!-- Start of navbar -->
+  <body>
+    <!-- Navigation bar -->
     <div class="navigation">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Web Visualization Dashboard</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="'navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
-                <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-                <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li> 
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="background-color: white;" href="index.html">Web Visualization Dashboard</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PLOTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="visualizations/wind.html">Wind</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">COMPARISON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">DATA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/clangstonhinton/web-visualizations-challenge">REPO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
       
@@ -59,7 +59,7 @@
       <div class="row">
         <div class="col-lg-7 col-md-12">
           <div class="box" style="padding-bottom: 5px;">
-            <h3 class="title">Latitude vs. Climate Element Summary</h3>
+            <h3 class="title">Latitude vs. Weather Summary</h3>
             <hr>
             <img src="assets/images/lat_vs_temp.png" class="vizualization rounded float-left" alt="Max Temperature Plot">
             <p>
@@ -76,43 +76,47 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12">
+        <div class="col-lg-5 col-md-15">
           <div class="box">
-            <h5 class="title">Visualizations</h5>
+            <h3 class="title">Visualizations: Latitude vs</h3>
             <hr>
             <div class="container">
-              <div class="row" style="padding-bottom: 30px;">
-                <div class="col-6">
+              <div class="row" style="padding-bottom: 75px;">
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Max Temperature</h6>
                   <a href="visualizations/temp.html">
-                    <img class="panel" src="assets/images/lat_vs_temp.png" alt="Max Temperature Plot">
+                    <img class="panel" src="assets/images/lat_vs_temp.png" alt="Temperature Plot">
                   </a>
                 </div>
-              <div class="col-6">
-                <a href="visualizations/humidity.html">
-                  <img class="panel" src="assets/images/lat_vs_humidity.png" alt="Humidity Plot">
-                </a>
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Humidity</h6>
+                  <a href="visualizations/humidity.html">
+                    <img class="panel" src="assets/images/lat_vs_humidity.png" alt="Humidity Plot">
+                  </a>
+                </div>
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Cloudiness</h6>
+                  <a href="visualizations/cloudiness.html">
+                    <img class="panel" src="assets/images/lat_vs_cloudiness.png" alt="Cloudiness Plot">
+                  </a>
+                </div>
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Wind</h6>
+                  <a href="visualizations/wind.html">
+                    <img class="panel" src="assets/images/lat_vs_wind.png" alt="Wind Plot">
+                  </a>
+                </div>          
               </div>
             </div>
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
-                <a href="visualizations/cloudiness.html">
-                  <img class="panel" src="assets/images/lat_vs_cloudiness.png" alt="Cloudiness Plot">
-                </a>
-            </div>
-            <div class="col-6">
-              <a href="visualizations/wind.html">
-                <img class="panel" src="assets/images/lat_vs_wind.png" alt="Wind Speed Plot">
-              </a>
-            </div>          
           </div>
         </div>
       </div>
-    </div>
+     </div>
     <!-- End of container -->
 
     <!-- Footer Section -->
     <footer>
-      <div class="footer">&copy; Copyright 2023</div>
+      <div class="footer">Created by: C.Langston Hinton    |    &copy; Copyright 2023</div>
     </footer>
 
     <!-- jQuery CDN -->

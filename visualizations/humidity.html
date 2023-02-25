@@ -7,10 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Add a title here -->
+    <title>Humidity</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
     <!-- Our own CSS stylesheet -->
     <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
 
@@ -18,14 +22,99 @@
 
   <body>
     <!-- Start of navbar -->
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" style="background-color: white;" href="../index.html">Web Visualization Dashboard</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          PLOTS
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="humidity.html">Humidity</a>
+                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="wind.html">Wind</a>
+                      </div>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../comparison.html">COMPARISON</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../data.html">DATA</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://github.com/clangstonhinton/web-visualizations-challenge">REPO</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
+
     <!-- End of navbar -->
 
     <!-- Start of container -->
-
-          <!-- Start of Visualizations imageNav Area -->
-          <!-- End of the Visualizations imageNav Area -->
-
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="box" style="padding-bottom: 100px;">
+            <h3 class="title">Latitude vs. Humidity</h3>
+            <hr>
+            <img src="../assets/images/lat_vs_humidity.png" class="vizualization rounded float-left" alt="Humidity Plot">
+            <p>
+              The data for Latitude and Humidity were graphed on the scatterplot to the right. No relationship 
+              can be observed from the data, indicating no correlation between these two variables.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-15">
+          <div class="box">
+            <h3 class="title">Visualizations: Latitude vs</h3>
+            <hr>
+            <div class="container">
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Max Temperature</h6>
+                  <a href="temp.html">
+                    <img class="panel" src="../assets/images/lat_vs_temp.png" alt="Max Temperature Plot">
+                  </a>
+                </div>
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Humidity</h6>
+                  <a href="humidity.html">
+                    <img class="panel" src="../assets/images/lat_vs_humidity.png" alt="Humidity Plot">
+                  </a>
+                </div>
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Cloudiness</h6>
+                  <a href="cloudiness.html">
+                    <img class="panel" src="../assets/images/lat_vs_cloudiness.png" alt="Cloudiness Plot">
+                  </a>
+                </div>
+                <div class="col-6" style="padding-bottom: 30px;">
+                  <h6>Wind</h6>
+                  <a href="wind.html">
+                    <img class="panel" src="../assets/images/lat_vs_wind.png" alt="Wind Plot">
+                  </a>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
     <!-- End of container -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer">&copy; Copyright 2023</div>
+    </footer>
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
