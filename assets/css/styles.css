@@ -31,7 +31,7 @@
 
   /* Body Background Image*/
   .bg-image {
-    background-image: url("weather_collage.png");
+    background-image: url("assets/images/weather_collage.png");
     height: 1100px;
     background-position: center;
     background-repeat: no-repeat;
