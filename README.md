@@ -27,19 +27,19 @@ There are 4 visualization pages - one page for each plot. Each visualization pag
   <img width="710" alt="Screen Shot 2023-03-06 at 3 17 20 PM" src="https://user-images.githubusercontent.com/44728723/223221185-2f69c55e-cc08-48e5-b802-473ca81ec25d.png">
 
 #### Comparison Page
-The comparison page contains all of the visualizations on the same page for ease of visually comparison. This page sses a Bootstrap grid for the visualizations. The grid ia two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+The comparison page contains all of the visualizations on the same page for ease of visual comparison. This page uses a Bootstrap grid for the visualizations. The grid holds two visualizations across on screens medium and larger, and 1 across on small screens.
     
 <p align="center">
  <img width="622" alt="Screen Shot 2023-03-06 at 3 20 25 PM" src="https://user-images.githubusercontent.com/44728723/223221735-08fbc2b8-7b9e-4e09-9c0f-0190b1033bc5.png">
     
 #### Data Page
-The data page contains the detailed source data of the weather elements, latitude and longitude of each of the 500 cities  The data table is responsive and varies in size based on the screen size of the device rendering the page.
+The data page contains the detailed source data of the weather elements, latitude and longitude of each of the 546 cities  The data table is responsive and varies in size based on the screen size of the device rendering the page.
 
 <p align="center">
  <img width="621" alt="Screen Shot 2023-03-06 at 3 22 34 PM" src="https://user-images.githubusercontent.com/44728723/223222139-17f811c0-d72b-445b-9a98-d335b788e480.png">
 
 #### Navigation 
-The navigation bar is at the top of every page. The "button" on the left of the navbar has the name of the site which allows users to return to the landing page from any page. The navbar contains a dropdown menu on the right side named "Plots" that provides a link to each individual visualization page. There are 3 more text links on the right side of the navbar: "Comparisons," which links to the comparisons page, "Data," which links to the data page, and "Repo", which links to the GitHub repository webpage. The navigation is responsive (using media queries) to smaller screens.
+The navigation bar is at the top of every page. The "toggle" text box on the left of the navbar has the name of the site which allows users to return to the landing page from any other page. The navbar contains a dropdown menu on the right side named "Plots" that provides a link to each individual visualization page. There are 3 more text links on the right side of the navbar: "Comparisons," which links to the comparisons page, "Data," which links to the data page, and "Repo", which links to the GitHub repository webpage. The navigation is responsive (using media queries) to smaller screens.
 
 
 ## References
