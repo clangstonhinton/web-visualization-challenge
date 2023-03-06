@@ -1,5 +1,5 @@
 # web-visualizations-challenge
-Used Python, HTLM, bootstraping and CSS to create a visualization dashboard website to house and render data analytics.
+Used Python, HTLM, bootstraping, CSS, and MatPlotLib to create a visualization dashboard website to house and render data analytics.
 
 Here is a link to the website:  https://clangstonhinton.github.io/web-visualization-challenge/
 
