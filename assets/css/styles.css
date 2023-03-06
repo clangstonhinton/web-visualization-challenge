@@ -84,9 +84,9 @@ body {
 
 /* Box Class */
 .box {
-    margin-top: 60px; 
-    margin-bottom: 62px; 
-    padding: 10px 20px 15px; 
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
     color:black;
     background-color: white; 
   }
