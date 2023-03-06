@@ -21,7 +21,7 @@ The landing page opens with an overview of the data analysis project on the left
  <img width="618" alt="Screen Shot 2023-03-06 at 3 10 28 PM" src="https://user-images.githubusercontent.com/44728723/223219892-84d6d87d-bd15-4323-9960-de509dd80ce5.png">
      
 #### Four Visualization Pages
-There are 4 visualization pages - one page for each plot. Each visualization page provides details and observations about the plot and its significance. The page also contains the 4-box visualization container and provides a means to navigate between them the plots. This is a responsive page and when viewed on smaller screens, the visualization container moves beneath the detailed plot summary.
+There are 4 visualization pages - one page for each plot. Each visualization page provides details and observations about the plot and its significance. The page also contains the 4-box visualization container and provides a means to navigate between the plots. This is a responsive page and when viewed on smaller screens, the visualization container moves beneath the detailed plot summary.
 
  <p align="center">
   <img width="710" alt="Screen Shot 2023-03-06 at 3 17 20 PM" src="https://user-images.githubusercontent.com/44728723/223221185-2f69c55e-cc08-48e5-b802-473ca81ec25d.png">
