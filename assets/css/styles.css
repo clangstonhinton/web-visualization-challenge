@@ -1,15 +1,8 @@
 /* Body Background Image*/
 body {
-  /*
-  background-image: url("https://s.yimg.com/ny/api/res/1.2/nqcSMwKIBa134G_enHQxKA--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://media.zenfs.com/en/hoodline_545/d3b0442273eb4a0beee562107ec74e01");
- 
-  background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg");
-  */
-
+  
   background-image: url("https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680__340.jpg");
-
-  /* background-image: url("assets/images/weather_collage.png"); */
-  height: 750px;
+  height: 1100px;
   background-position: center;
   background-repeat: repeat;
   background-size: cover; 
@@ -22,7 +15,7 @@ body {
 
 /* Navbar */
 .navbar{
-    max-height: 57px; 
+    max-height: 60px; 
   }
   .navigation .navbar-brand{
     color: #0c3ef4; 
