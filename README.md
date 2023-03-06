@@ -41,6 +41,9 @@ The data page contains the detailed source data of the weather elements, latitud
 #### Navigation 
 The navigation bar is at the top of every page. The "toggle" text box on the left of the navbar has the name of the site which allows users to return to the landing page from any other page. The navbar contains a dropdown menu on the right side named "Plots" that provides a link to each individual visualization page. There are 3 more text links on the right side of the navbar: "Comparisons," which links to the comparisons page, "Data," which links to the data page, and "Repo", which links to the GitHub repository webpage. The navigation is responsive (using media queries) to smaller screens.
 
+<p align="center">
+ <img width="619" alt="Screen Shot 2023-03-06 at 3 34 48 PM" src="https://user-images.githubusercontent.com/44728723/223224637-63d0cc04-b4f5-4c03-b809-d938f434e6c4.png">
+ 
 
 ## References
 
