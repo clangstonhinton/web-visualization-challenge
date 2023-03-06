@@ -17,8 +17,8 @@ The dashboard website contains 7 pages, as detailed below.
 #### Landing Page
 The landing page opens with an overview of the data analysis project on the left side and visualizations of all four plots on the right side of the page. The plot images also serve as navigation to each plot's detail page. This is a responsive page and displays the content vertically on small screens.
 
-<img width="618" alt="Screen Shot 2023-03-06 at 3 10 28 PM" src="https://user-images.githubusercontent.com/44728723/223219892-84d6d87d-bd15-4323-9960-de509dd80ce5.png">
-
+<p align="center">
+ <img width="618" alt="Screen Shot 2023-03-06 at 3 10 28 PM" src="https://user-images.githubusercontent.com/44728723/223219892-84d6d87d-bd15-4323-9960-de509dd80ce5.png">
      
 #### Four Visualization Pages
 There are 4 visualization page - one page for each plot. Each visualization page provides details and observations about the plot and its significance. The page also contains the 4-box visualization container and provides a means to navigate between them the plots. This is a responsive page and when viewed on smaller screens, the visualization container moves beneath the detailed plot summary.
